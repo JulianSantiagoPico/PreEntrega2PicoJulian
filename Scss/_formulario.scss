@@ -1,0 +1,5 @@
+.formImg{
+    display: map-get($map: $disposition, $key: flex);
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+// Variables
+$colorFondo: rgba(0, 0, 0, 0.329);
+$colorLetra: white;
+$grid: grid;
+$flexbox: flex;
+$marginTop: 1rem;
+$fontsize: 1.25rem;
+$flex-c: column;
+$flex-r: row;
+
+// Mapa colores
+$colors: (
+    "fondo": $colorFondo,
+    "letra": $colorLetra
+);
+// Fin mapa colores
+
+// Mapa disposicion
+$disposition: (
+    "grid": $grid,
+    "flex": $flexbox
+);
+// Fin mapa disposicion
+
+// mapa organizacion flex
+$flexDirection: (
+    "column": $flex-c,
+    "row": $flex-r
+)
+// fin mapa organizacion flex

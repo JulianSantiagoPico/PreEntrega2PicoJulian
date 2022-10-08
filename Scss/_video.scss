@@ -1,0 +1,14 @@
+.position{
+    display: map-get($map: $disposition, $key: flex);
+    flex-direction: map-get($map: $flexDirection, $key: column);
+    align-items: center;
+    margin-top: $marginTop;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+}
+    
+.dimentions{
+    width: 80vw;
+    height: 75vh;
+}

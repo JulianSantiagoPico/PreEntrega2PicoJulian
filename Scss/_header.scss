@@ -1,0 +1,12 @@
+nav{
+    grid-area: nav;
+    background-color: map-get($map: $colors, $key: fondo);
+    color: map-get($map: $colors, $key: letra);
+
+    .tamañoLogo{
+        width: 8vw;
+    }
+    .tamañoImagen{
+        width: 20%;
+    }
+}

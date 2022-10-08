@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="../Css/hover-min.css">
 </head>
 <body>
-    <div>
+    <div class="grid">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark colorFondo">
+            <nav class="navbar navbar-expand-lg navbar-dark colorFondo nav">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img class="tamañoLogo hvr-bounce-in" src="../Assets/Logo/hollow_knight_icon_v1_by_andonovmarko_db0enw6-fullview.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,25 +42,33 @@
             </nav>
         </header>
     
-        <main class="colorFondo container mt-3">
-            <div>
-                <h2 class="colorLetra text-center">¿Necesitas ayuda o tienes alguna sugerencia? <br> Escribe lo que quieras aqui abajo y enviamelo</h2>
-            </div>
-            
-            <div class="p-5">
-                <form action="contacto.html">
-                    <input type="text" placeholder="Nombre" name="Nombre" id="nombre">
-                    <br>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <br>
-                    <input type="tel" placeholder="Telefono" name="tel" id="tel">
-                    <br>
-                    <textarea name="comments" id="" cols="30" rows="5" placeholder="¡Ingresa un comentario!"></textarea>
-                    <br>
-                    <button type="submit">enviar</button>
-                    <button type="reset">reset</button>
-                </form>
-            </div>
+        <main class="colorFondo container mt-3 main">
+            <section>
+                <div>
+                    <h2 class="colorLetra text-center">¿Necesitas ayuda o tienes alguna sugerencia? <br> Escribe lo que quieras aqui abajo y enviamelo</h2>
+                </div>
+            </section>
+            <section>
+                <div class="formImg pb-3">
+                    <div class="pt-5 pb-3">
+                        <form action="contacto.html">
+                            <input type="text" placeholder="Nombre" name="Nombre" id="nombre">
+                            <br>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <br>
+                            <input type="tel" placeholder="Telefono" name="tel" id="tel">
+                            <br>
+                            <textarea name="comments" id="" cols="30" rows="5" placeholder="¡Ingresa un comentario!"></textarea>
+                            <br>
+                            <button type="submit">enviar</button>
+                            <button type="reset">reset</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img class="container" src="../Assets/Images/Bench.jpg" alt="">
+                    </div>
+                </div>
+            </section>
         </main>
     
         <footer class="container-fluid colorFondo mt-3 footer">

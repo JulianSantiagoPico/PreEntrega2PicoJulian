@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="../Css/hover-min.css">   
 </head>
 <body>
-    <div>
+    <div class="grid">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark colorFondo">
+            <nav class="navbar navbar-expand-lg navbar-dark colorFondo nav">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img class="tamañoLogo hvr-bounce-in" src="../Assets/Logo/hollow_knight_icon_v1_by_andonovmarko_db0enw6-fullview.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
             </nav>
         </header>
     
-        <main class="container mt-3 colorFondo" >
+        <main class="container mt-3 colorFondo main">
             <section class>
                 <div class="mt-3 container">
                     <h1 class="fs-4 colorLetra text-center">¿Te perdiste en alguna zona desconocida de Hallownest o no sabes que tienes que hacer? <br> En esta pagina encontraras diferentes guías que te van a ayudar, úsalas sabiamente.</h1>
@@ -53,37 +53,201 @@
                     <div class="accordion-item row-md-12 row-sm-12 row-lg-4">
                         <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1</button>
+                        Guía de habilidades</button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                Al comenzar el juego no tendremos ninguna de estas habilidades las cuales seran importantes a lo largo de la aventura, por eso en esta guía te hare una lista del como y donde conseguirlas: 
+                                    <ul>
+                                        <li>   
+                                            <p>Nuestro primer objetivo será acabar con el Falso Caballero en el centro de los Cruces Olvidados, lo que nos abrirá el camino hacia el chamán para conseguir el <strong>Espíritu Vengativo</strong>.</p>
+                                            <img class="container" src="../Assets/Images/Vengeful_Spirit.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Tras esto, deberemos dirigirnos hacia el oeste para llegar hasta el Sendero Verde. Una vez allí sigue avanzando hacia el oeste hasta encontrarte con Hornet. Al derrotarla obtendremos la <strong>Capa de ala de Polilla</strong>.
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Mothwing_Cloak.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Nuestro siguiente objetivo será hacernos con la <strong>Garra de Mantis</strong>. Para ello, regresa a los Cruces Olvidados y dirígete hacia el sur hasta llegar a los Páramos Fúngicos. Sigue descendiendo en dirección sur hasta llegar a la Aldea Mantis, donde encontraremos este preciado objeto.
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Skill_Mantis_Claw.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Con esto en nuestro poder ya podremos acceder al Santuario de Almas que se encuentra en el centro de Ciudad de Lágrimas. Escalalo, derrota al Maestro de Almas y obtendréis el <strong>Salto Desolador</strong>. 
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Desolate_Dive.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Ahora nos toca regresar a Bocasucia para comprar la Linterna de Lumélula a Sly (si no lo encontraste todavía, lo encontraras por primera vez en los Cruces Olvidados) y poner rumbo hacia el este de los Cruces Olvidados hasta llegar a la Cumbre de Cristal. Desde aquí, debemos seguir hacia el este hasta llegar a una sección que pondrá a prueba nuestras habilidades plataformeras. Al final de la misma, encontraremos el <strong>Corazón de Cristal</strong>.
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Crystal_Heart.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Aprovechando que estamos en la Cumbre de Cristal, nuestro siguiente paso lógico debería ser avanzar hacia el sur hasta llegar a las Tierras de Reposo, lo que nos permitirá avanzar la trama principal y obtener el <strong>Aguijón Onírico</strong>.
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Dream_Nail.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Nuestro siguiente objetivo debería ser la Cuenca Antigua. Al oeste de la misma, tendremos que hacer frente al Receptáculo Roto para así poder obtener las <strong>Alas de Monarca</strong>.
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Monarch_Wings.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Con esto, ya tendremos todas las habilidades necesarias para terminar el juego, aunque si queremos terminar de completar nuestra colección de habilidades, deberemos dirigirnos hacia el Límite del Reino y obtener la <strong>Marca del Rey</strong>.
+                                            </p>
+                                            <img class="container" src="../Assets/Images/kings_brand.png" loading="lazy" alt="">
+                                        </li>
+                                        <li>   
+                                            <p>Finalmente, este ítem nos permitirá abrir la gran puerta que se encuentra al sur de la Cuenca Antigua, dándonos acceso al Abismo. Cuando estemos al fondo del todo, simplemente tendremos que dirigirnos hacia el este, cruzar el Mar de Sombras y obtener la <strong>Capa Sombría</strong>.
+
+                                            </p>
+                                            <img class="container" src="../Assets/Images/Shade_Cloak.png" loading="lazy" alt="">
+                                        </li>
+                                    </ul>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item row-md-12 row-sm-12 row-lg-4">
                         <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2</button>
+                        Orden de los jefes</button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    En esta sección enlistaré todos los jefes del juego y donde encontrarlos, cuando lo hagas preparate para una buena batalla. <br> Aunque recuerda que es solo una recomendación, tu puedes decidir en que orden enfrentar a los jefes del juego.        
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Madre Gruz, en los cruces olvidados.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Falso caballero, en los cruces olvidados.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Rey Vengamosca, en el sendero verde.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Hornet (primer encuentro), en el sendero verde.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Musgoagresor gigante, en el sendero verde.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Señores Mantis, en la aldea mantis.     
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Guerrero del alma, en el santuario de almas.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Maestro de almas, en el santuario de almas.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Guardián de cristal, en la cumbre de cristal.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Xero, en las tierras de reposo.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Tremarmita, en los canales reales.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Defensor del estiercol, en los canales reales.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            El Receptáculo Roto, en cuenca antigua.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Nosk, en nido profundo.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Gorb, en los acantilados aulladores.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Hornet (segundo encuentro), en el limite del reino.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Marmu, en los jardines de la reina.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Señor desleal, en los jardines de la reina.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Uumuu, en los archivos de la maestra.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Hollow knight, en el templo del huevo negro.        
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            El destello, en el templo del huevo negro.       
+                                        </p>
+                                    </li>
+                                </ul> 
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item row-md-12 row-sm-12 row-lg-4">
                         <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Mapa con todas las localizaciones y secretos</button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>
+                                    Este mapa es obra del usuario de Steam Demajen y nos ofrece en tan solo una impresionante imagen, las localizaciones de absolutamente todo lo que podemos encontrar en el juego, desde los jefes hasta los poderes, larvas cautivas e incluso las tiendas con sus diversos precios. <br> Haz click para ampliarlo.
+                                </p>
+                                <a href="../Assets/Images/876122772_preview_map3_4_t.jpg" target="_blank"><img class="container" src="../Assets/Images/876122772_preview_map3_4_t.jpg" loading="lazy" alt=""></a> 
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section class="p-3">
+                <h3>
+                    Aquí te dejo el mapa de Hallownest con todos los marcadores, es el mismo que tendras dentro del juego. <br> Haz click para ampliarlo.
+                </h3>
+                <a href="../Assets/Images/201871716529_1 (1).jpg" target="_blank"><img class="container" src="../Assets/Images/201871716529_1 (1).jpg" loading="lazy" alt=""></a>    
             </section>
          </main>
     

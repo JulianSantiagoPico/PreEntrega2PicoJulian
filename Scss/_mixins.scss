@@ -1,0 +1,5 @@
+@mixin bg-color-fontsize{
+    background-color: $colorBgText;
+    color: $color1;
+    font-size: larger;
+}

@@ -1,0 +1,5 @@
+.main{
+    background-color: map-get($map: $colors, $key: fondo);
+    margin-top: 1rem;
+    color: map-get($map: $colors, $key: letra);
+}

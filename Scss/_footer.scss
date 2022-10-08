@@ -1,0 +1,6 @@
+.footer{
+    background-color: map-get($map: $colors, $key: fondo);
+    grid-area: footer;
+    color: map-get($map: $colors, $key: letra);
+
+}
