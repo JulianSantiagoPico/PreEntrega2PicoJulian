@@ -1,5 +1,10 @@
-@mixin bg-color-fontsize{
-    background-color: $colorBgText;
-    color: $color1;
-    font-size: larger;
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin w-h {
+    width: map-get($map: $dimentions, $key: width) - 20;
+    height: map-get($map: $dimentions, $key: height) - 25;
 }

@@ -4,9 +4,17 @@ $colorLetra: white;
 $grid: grid;
 $flexbox: flex;
 $marginTop: 1rem;
+$padding: 1rem;
 $fontsize: 1.25rem;
 $flex-c: column;
 $flex-r: row;
+$right: right;
+$left: left;
+$center: center;
+$justify: justify;
+$width: 100vw;
+$height: 100vh;
+// fin variables
 
 // Mapa colores
 $colors: (
@@ -26,5 +34,21 @@ $disposition: (
 $flexDirection: (
     "column": $flex-c,
     "row": $flex-r
-)
+);
 // fin mapa organizacion flex
+
+// mapa posicion
+$position: (
+    "left": $left,
+    "center": $center,
+    "right": $right,
+    "justify": $justify
+);
+// fin mapa posicion
+
+// mapa dimenciones
+$dimentions: (
+    "height": $height,
+    "width":  $width
+)
+// fin mapa dimenciones

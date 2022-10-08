@@ -4,7 +4,7 @@ nav{
     color: map-get($map: $colors, $key: letra);
 
     .tamañoLogo{
-        width: 8vw;
+        width: map-get($map: $dimentions, $key: width) - 92;
     }
     .tamañoImagen{
         width: 20%;
