@@ -28,3 +28,7 @@ body{
     "body"
     "footer";
 }
+
+.centrar{
+    @include flex-column-center    
+}

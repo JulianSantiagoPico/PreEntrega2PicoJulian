@@ -61,4 +61,10 @@ body {
 .grid {
   display: grid;
   grid-template-areas: "nav" "body" "footer";
+}
+
+.centrar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=Style.css.map */
