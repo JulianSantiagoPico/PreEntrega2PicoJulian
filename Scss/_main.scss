@@ -3,3 +3,7 @@
     margin-top: 1rem;
     color: map-get($map: $colors, $key: letra);
 }
+
+main{
+    grid-area: middle;
+}

@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dongle&family=Edu+SA+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fjalla+One&family=Lato:ital@1&family=Montserrat:wght@300&family=Mouse+Memoirs&family=Oswald:wght@200&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@300&family=The+Nautigal:wght@700&family=Updock&display=swap");
 nav {
-  grid-area: nav;
   background-color: rgba(0, 0, 0, 0.329);
   color: white;
 }
@@ -11,6 +10,9 @@ nav .tamañoLogo {
 nav .tamañoImagen {
   width: 20%;
 }
+nav header {
+  grid-area: up;
+}
 
 .main {
   background-color: rgba(0, 0, 0, 0.329);
@@ -18,10 +20,19 @@ nav .tamañoImagen {
   color: white;
 }
 
-.footer {
+main {
+  grid-area: middle;
+}
+
+footer {
+  grid-area: down;
   background-color: rgba(0, 0, 0, 0.329);
-  grid-area: footer;
+  margin-top: 1rem;
   color: white;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .position {
@@ -55,16 +66,21 @@ body {
   background-image: url(../Assets/Background/1184118.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  grid-area: body;
 }
 
 .grid {
   display: grid;
-  grid-template-areas: "nav" "body" "footer";
+  grid-template-areas: "up" "middle" "down";
 }
 
 .centrar {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .imgGuia {
+    width: 50%;
+  }
 }/*# sourceMappingURL=Style.css.map */

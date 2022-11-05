@@ -1,6 +1,10 @@
-.footer{
+footer{
+    grid-area: down;
     background-color: map-get($map: $colors, $key: fondo);
-    grid-area: footer;
+    margin-top: $marginTop;
     color: map-get($map: $colors, $key: letra);
+}
 
+.link{
+    text-decoration: $linkStyle;
 }

@@ -5,7 +5,6 @@
 @import "mixins";
 @import "video";
 @import "formulario";
-
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dongle&family=Edu+SA+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fjalla+One&family=Lato:ital@1&family=Montserrat:wght@300&family=Mouse+Memoirs&family=Oswald:wght@200&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&family=Roboto:wght@300&family=The+Nautigal:wght@700&family=Updock&display=swap');
 
 *{
@@ -18,17 +17,23 @@ body{
     background-image: url(../Assets/Background/1184118.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    grid-area: body;
 }
 
 .grid{
     display: map-get($map: $disposition, $key: grid);
     grid-template-areas: 
-    "nav"
-    "body"
-    "footer";
+    "up"
+    "middle"
+    "down";
 }
 
 .centrar{
     @include flex-column-center    
+}
+
+@media only screen and (max-width: 768px)
+{
+    .imgGuia{
+        width: 50%;
+    }
 }
